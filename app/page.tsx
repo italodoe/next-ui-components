@@ -97,7 +97,7 @@ export default function Home() {
             <Button
               variant="default"
               onClick={(elem) => {
-                console.log(elem.target.outerHTML);
+                console.log(elem.target);
               }}
             >
               Click default
